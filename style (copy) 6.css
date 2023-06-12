@@ -1,0 +1,84 @@
+
+body{
+     background: black;
+    color: white;
+    font-family: medium;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+
+
+}
+
+
+#intro{
+  font-size: 25px;
+  width: 780px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title{ 
+    font-size: 25px;
+    font-family: monospace ;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+#produtos{
+   border: 2px solid  #7A237A;
+    padding: 10px;
+    border-radius: 15px;
+  
+}
+
+a:hover{
+    color: #7A237A;
+    transition: 0.3s all;
+  
+  
+}
+
+#inscreva-se-btn{
+    border: 2px solid  #7A237A;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#inscreva-se-btn:hover{
+    background-color: #7A237A;
+    color: white;
+}
+
+h1{
+    font-weight: 200;
+}
+.container img{
+  position: relative;
+  width: 1200px;
+  height: 1400px;
+  display: flex;
+  align-items: center;
+  margin-block-start: 90PX;
+  padding: 20px;
+  border: 2px solid purple;
+  border-radius: 15px;
+
+  
+}

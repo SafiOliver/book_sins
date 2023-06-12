@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="livro.png" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style (copy) 5.css">
+    <title>Quem Somos</title>
+  </head>
+  <body>
+    <section>
+        <div class="circle"></div>
+          <header>
+            <div id="title">
+                <h1>BookSins</h1>
+                
+            </div>
+    
+            <ul>
+                <a href="index.html"><li>Início</li></a>
+                <a href="index (copy) 3.html"><li>Quem Somos?</li></a>
+                <a href="index (copy) 4.html"><li>Categorias</li></a>
+                <a href="index (copy) 23.html"><li>Minha Conta</li>
+                <a href="index (copy).html" id="inscreva-se-btn"><li>Login/Cadastro
+                </li></a>
+            </ul>
+          </header>
+      <aside>
+        <main>
+          <div class="principal">
+            <h1>Quem Somos?</h1>
+            <h3>Idealizado e criado no ano de 2021, o Booksins começou com a ideia de                        conseguir uma renda extra baseado em algo que amamos, a leitura, algo que                   foi tão importante para várias pessoas nesse período marcado pela pandemia.</h3>
+
+
+            <div class="blocos">
+              <div>
+                  <h4>Nossa Proposta</h4>
+                  <p> Possibilitar o acesso à leitura por um preço acessível e incentivar                       o debate literário entre as gerações mais jovens. Um site com uma                         linguagem moderna, um conteúdo engajado com as tendências do                              mercado e com um design fácil e intuitivo.                                                </p>
+              </div>
+
+              <div>
+                <h4> Nossos Contatos e Redes Sociais</h4>
+                <p>
+                  Email:booksinsiludidas@gmail.com
+                  Contato: (81) 98318-6953
+                  Instagram:@book_sins   
+                  <button> Conheça nosso Instagram!</button>
+                </p>
+              </div>
+              
+            </div>
+          </div>
+            <dialog>
+              <p id="dialog">Você está deixando o site para visitar o perfil do Instagram do Booksins. Quer continuar?
+              Aperte "OK" para confirmar ou tecle "Esc" para sair</p>
+               <a href="https://www.instagram.com/book_sins/" target="_blank"><button>OK</button></a>
+            </dialog>
+          
+              <script>
+                const button = document.querySelector("button")
+                const modal = document.querySelector("dialog")
+                const buttoClose = document.querySelector("dialog button")
+
+                button.onclick = function () {
+                  modal.showModal()
+                  
+                }
+
+                buttoClose.onclick = function () {
+                  modal.close
+                }
+              </script>
+        </main>
+       </aside>
+  
+    
+       
+    
+     
+    </section>      
+  
